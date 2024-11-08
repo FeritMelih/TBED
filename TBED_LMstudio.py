@@ -68,4 +68,6 @@ def request(url, json, count):
             else:
                 request(url, json, count+1)
         else:
-            return {"result":"error"}
+            return {"result":"error", "response": 0}
+    else:
+        return {"result":"error", "response": 0}
