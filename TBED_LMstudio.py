@@ -37,11 +37,15 @@ def detect(message, model, port_override = False):
                 {'role': 'assistant', 'content': '1'},
                 {'role': 'user', 'content': 'How can I manage my own health while caregiving?'},
                 {'role': 'assistant', 'content': '0'},
+                {'role': 'user', 'content': 'Sometimes I feel like Im losing myself in this'},
+                {'role': 'assistant', 'content': '0'},
                 {'role': 'user', 'content': 'Hes coughing up blood.'},
                 {'role': 'assistant', 'content': '1'},
                 {'role': 'user', 'content': 'Shes having a severe asthma attack and her inhaler isnt helping.'},
                 {'role': 'assistant', 'content': '1'},
                 {'role': 'user', 'content': 'I am feeling hungry, lets order some steak.'},
+                {'role': 'assistant', 'content': '0'},
+                {'role': 'user', 'content': 'I never knew love could hurt this much'},
                 {'role': 'assistant', 'content': '0'},
                 {'role': 'user', 'content': message}]
 
