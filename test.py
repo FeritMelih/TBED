@@ -5,10 +5,10 @@ import Test_Emergency
 import Test_Non_Emergency
 
 # Array of 100 sentences
-correct = 0
+correct = 1
 
-# sentences = Test_Emergency.getEmergencyArray()
-sentences = Test_Non_Emergency.getNonEmergencyArray()
+sentences = Test_Emergency.getEmergencyArray()
+# sentences = Test_Non_Emergency.getNonEmergencyArray()
 
 # URL for the POST request
 url = "http://127.0.0.1:9111"
